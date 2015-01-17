@@ -1,0 +1,53 @@
+﻿body 
+	{	background-color: White;
+		color: Black;
+		font-family:Tahoma, Verdana, Arial, Helvetica, sans-serif;
+		font-size:12px;
+		margin:0 auto;
+		padding: 0;
+		min-width: 800px;
+	}
+
+/* Cabeceras y textos */
+h1, h2, h3 
+{	font: bold;
+	color: #333;	
+	margin: 1em 2ex 1em 2ex;
+}
+
+h1 { font-size: 1.5em; } 
+h2 { font-size: 1.2em; }
+h3 { font-size: 1.1em; }
+
+h1 a, h1 a:visited, h1 a:link 
+{	text-decoration: none; 
+}
+
+h2 a, h2 a:visited, h2 a:link 
+{	text-decoration: none; 
+}		
+
+p
+{ font-size: 1em;
+	margin: 1em 2ex 1em 2ex;
+	line-height: 1.4em;
+}
+	
+ul
+{ line-height: 1.4em;
+}
+
+/* Hipervínculos */
+a, a:visited, a:link 
+{	color: #0000FF; 
+	text-decoration:underline; 
+}
+
+a:hover 
+{ color: Red; 
+	text-decoration: none;
+}
+
+a img
+{ 	border: 0;
+}

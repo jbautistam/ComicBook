@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<HelpPages>
+	<Page>
+		<Name>Introducción</Name>
+		<Description>Introducción a la aplicación</Description>
+		<FileName>Pages/Aplicaciones/ComicsBooks.htm</FileName>
+		<Pages>
+		
+			<Page>
+				<Name>Interface</Name>
+				<Description>Descripción de la interface de la aplicación</Description>
+				<FileName>Pages/Aplicaciones/ComicBooks/Interface.htm</FileName>
+			</Page>
+
+			<Page>
+				<Name>Creación de cómics</Name>
+				<Description>¿Cómo se crean nuevos cómics?</Description>
+				<FileName>Pages/Aplicaciones/ComicBooks/Creacion-de-comics.htm</FileName>
+			</Page>
+
+			<Page>
+				<Name>Exportación a HTML</Name>
+				<Description>Exportación de cómics a galerías HTML</Description>
+				<FileName>Pages/Aplicaciones/ComicBooks/Exportacion-HTML.htm</FileName>
+			</Page>
+
+			<Page>
+				<Name>Exportación a ePub</Name>
+				<Description>Exportación de cómics a eBooks</Description>
+				<FileName>Pages/Aplicaciones/ComicBooks/Exportacion-ePub.htm</FileName>
+			</Page>
+
+			<Page>
+				<Name>Impresión de cómics</Name>
+				<Description>Impresión de cómics</Description>
+				<FileName>Pages/Aplicaciones/ComicBooks/Interface/Ventanas/Presentacion-preliminar.htm</FileName>
+			</Page>
+
+		</Pages>
+	</Page>
+	
+	<Page>
+		<Name>Archivos de cómics</Name>
+		<Description>¿Qué es un archivo de cómic?</Description>
+		<FileName>Pages/Aplicaciones/ComicBooks/Definicion-de-archivos.htm</FileName>
+	</Page>
+
+	<Page>
+		<Name>eBooks</Name>
+		<Description>¿Qué es un archivo ePub?</Description>
+		<FileName>Pages/Aplicaciones/ComicBooks/Definicion-de-archivos-ePub.htm</FileName>
+	</Page>
+	
+	<Page>
+		<Name>Cómics Web</Name>
+		<Description>Cómics en la Web</Description>
+		<FileName>Pages/Aplicaciones/ComicBooks/Comics-Web.htm</FileName>
+	</Page>
+
+	<Page>
+		<Name>Publicidad</Name>
+		<Description>¿Por qué esta aplicación lleva publicidad?</Description>
+		<FileName>Pages/Aplicaciones/ComicBooks/Razon-de-la-publicidad.htm</FileName>
+	</Page>
+	
+	<Page>
+		<Name>Acerca de</Name>
+		<Description>Acerca de</Description>
+		<FileName>Pages/About.htm</FileName>
+	</Page>
+</HelpPages>

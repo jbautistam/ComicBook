@@ -1,0 +1,1147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{476DF4AE-841E-421F-8DCB-BB53299265BD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Bau.Applications.ComicsBooks</RootNamespace>
+    <AssemblyName>BauComicsBooks</AssemblyName>
+    <ApplicationIcon>Resources\About.ico</ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WeifenLuo.WinFormsUI.Docking, Version=2.3.3516.33297, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Controles\DockPanel\Src\WinFormsUI\bin\Release\WeifenLuo.WinFormsUI.Docking.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\ComicFiles\clsComicLibrary.cs" />
+    <Compile Include="Classes\ComicFiles\colComicBookmarks.cs" />
+    <Compile Include="Classes\Configuration\clsConfiguration.cs" />
+    <Compile Include="Classes\DockedForms\clsDockedForm.cs" />
+    <Compile Include="Classes\DockedForms\colDockedForms.cs" />
+    <Compile Include="Classes\Enums\clsEnums.cs" />
+    <Compile Include="Classes\Interfaces\IFormAdmon.cs" />
+    <Compile Include="Classes\Interfaces\IPluginDocument.cs" />
+    <Compile Include="Classes\ComicFiles\clsComicBookmark.cs" />
+    <Compile Include="Classes\ComicFiles\clsComicFile.cs" />
+    <Compile Include="Classes\ComicFiles\colComicLastOpenFiles.cs" />
+    <Compile Include="Classes\UserInterface\clsFormat.cs" />
+    <Compile Include="Classes\UserInterface\clsListImagesUI.cs" />
+    <Compile Include="Classes\ComicsWeb\clsComicWeb.cs" />
+    <Compile Include="Classes\ComicsWeb\colComicWeb.cs" />
+    <Compile Include="Forms\Blog\Classes\BlogReaderFile.cs" />
+    <Compile Include="Forms\Blog\Classes\BlogReaderFilesCollection.cs" />
+    <Compile Include="Forms\Blog\Classes\FeedIDs.cs" />
+    <Compile Include="Forms\Blog\Classes\FeedMerger.cs" />
+    <Compile Include="Forms\Blog\Classes\OPMLManager.cs" />
+    <Compile Include="Forms\Blog\Classes\Template.cs" />
+    <Compile Include="Forms\Blog\Classes\TemplateManager.cs" />
+    <Compile Include="Forms\Blog\frmBlogExplorer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Blog\frmBlogExplorer.Designer.cs">
+      <DependentUpon>frmBlogExplorer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Blog\frmBlogReader.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Blog\frmBlogReader.designer.cs">
+      <DependentUpon>frmBlogReader.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Blog\frmPropertiesBlog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Blog\frmPropertiesBlog.Designer.cs">
+      <DependentUpon>frmPropertiesBlog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Blog\UC\ctlTreeBlogs.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Blog\UC\ctlTreeBlogs.Designer.cs">
+      <DependentUpon>ctlTreeBlogs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ComicWeb\frmWebComic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ComicWeb\frmWebComic.Designer.cs">
+      <DependentUpon>frmWebComic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Comic\frmComicEPub.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Comic\frmComicEPub.Designer.cs">
+      <DependentUpon>frmComicEPub.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Comic\frmComic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Comic\frmComic.Designer.cs">
+      <DependentUpon>frmComic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Comic\frmComicBookmark.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Comic\frmComicBookmark.Designer.cs">
+      <DependentUpon>frmComicBookmark.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Comic\frmComicGalleryHTML.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Comic\frmComicGalleryHTML.Designer.cs">
+      <DependentUpon>frmComicGalleryHTML.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Comic\frmComicInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Comic\frmComicInfo.Designer.cs">
+      <DependentUpon>frmComicInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Comic\frmComicPreview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Comic\frmComicPreview.designer.cs">
+      <DependentUpon>frmComicPreview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ePub\frmEPubCreator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ePub\frmEPubCreator.Designer.cs">
+      <DependentUpon>frmEPubCreator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ePub\frmEPub.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ePub\frmEPub.Designer.cs">
+      <DependentUpon>frmEPub.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Explorer\frmExplorerFiles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Explorer\frmExplorerFiles.Designer.cs">
+      <DependentUpon>frmExplorerFiles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Explorer\frmComicsWeb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Explorer\frmComicsWeb.Designer.cs">
+      <DependentUpon>frmComicsWeb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Explorer\frmLibrary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Explorer\frmLibrary.Designer.cs">
+      <DependentUpon>frmLibrary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\Print\clsPrintHelper.cs" />
+    <Compile Include="Forms\frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Help\frmHelp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Help\frmHelp.Designer.cs">
+      <DependentUpon>frmHelp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Help\frmHelpIndex.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Help\frmHelpIndex.Designer.cs">
+      <DependentUpon>frmHelpIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Tools\frmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Tools\frmAbout.Designer.cs">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Tools\frmConfiguration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Tools\frmConfiguration.Designer.cs">
+      <DependentUpon>frmConfiguration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Tools\frmLog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Tools\frmLog.Designer.cs">
+      <DependentUpon>frmLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\Blog\frmBlogExplorer.resx">
+      <DependentUpon>frmBlogExplorer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Blog\frmBlogReader.resx">
+      <DependentUpon>frmBlogReader.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Blog\frmPropertiesBlog.resx">
+      <DependentUpon>frmPropertiesBlog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Blog\UC\ctlTreeBlogs.resx">
+      <DependentUpon>ctlTreeBlogs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ComicWeb\frmWebComic.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmWebComic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Comic\frmComicEPub.resx">
+      <DependentUpon>frmComicEPub.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Comic\frmComic.resx">
+      <DependentUpon>frmComic.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Comic\frmComicBookmark.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmComicBookmark.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Comic\frmComicGalleryHTML.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmComicGalleryHTML.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Comic\frmComicInfo.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmComicInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Comic\frmComicPreview.resx">
+      <DependentUpon>frmComicPreview.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ePub\frmEPubCreator.resx">
+      <DependentUpon>frmEPubCreator.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ePub\frmEPub.resx">
+      <DependentUpon>frmEPub.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Explorer\frmExplorerFiles.resx">
+      <DependentUpon>frmExplorerFiles.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Explorer\frmComicsWeb.resx">
+      <DependentUpon>frmComicsWeb.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Explorer\frmLibrary.resx">
+      <DependentUpon>frmLibrary.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Help\frmHelp.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmHelp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Help\frmHelpIndex.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmHelpIndex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Tools\frmAbout.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Tools\frmConfiguration.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmConfiguration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Tools\frmLog.resx">
+      <DependentUpon>frmLog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\accept.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_side_tree.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_split.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\attach.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bell.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bug.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\connect.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cross.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\disconnect.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\door_out.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\email_open.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exclamation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\feed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\help.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\information.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\newspaper.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\page_white_text_width.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\world.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\control_rewind_blue.png" />
+    <None Include="Resources\images.png" />
+    <None Include="Resources\computer.png" />
+    <None Include="Resources\user_gray.png" />
+    <None Include="Resources\zoom.png" />
+    <None Include="Resources\vb6tovb7.bmp" />
+    <None Include="Resources\user.png" />
+    <None Include="Resources\group.png" />
+    <None Include="Resources\page_white_copy.png" />
+    <None Include="Resources\page_paste.png" />
+    <None Include="Resources\cut.png" />
+    <None Include="Resources\disk_multiple.png" />
+    <None Include="Resources\page.png" />
+    <None Include="Resources\vcard1.png" />
+    <None Include="Resources\user_suit1.png" />
+    <None Include="Resources\status_online1.png" />
+    <None Include="Resources\status_offline1.png" />
+    <None Include="Resources\status_busy1.png" />
+    <None Include="Resources\status_away1.png" />
+    <None Include="Resources\user_red1.png" />
+    <None Include="Resources\user_orange1.png" />
+    <None Include="Resources\user_green1.png" />
+    <None Include="Resources\user_gray1.png" />
+    <None Include="Resources\user_go1.png" />
+    <None Include="Resources\user_edit1.png" />
+    <None Include="Resources\user_delete1.png" />
+    <None Include="Resources\user_comment1.png" />
+    <None Include="Resources\user_add1.png" />
+    <None Include="Resources\user1.png" />
+    <None Include="Resources\comments.png" />
+    <None Include="Resources\group1.png" />
+    <None Include="Resources\folder1.png" />
+    <None Include="Resources\tab_delete.png" />
+    <None Include="Resources\disk.png" />
+    <None Include="Resources\Log.ico" />
+    <None Include="Resources\Group.ico" />
+    <None Include="Resources\Message.ico" />
+    <None Include="Resources\vcard.png" />
+    <None Include="Resources\user_suit.png" />
+    <None Include="Resources\status_online.png" />
+    <None Include="Resources\status_offline.png" />
+    <None Include="Resources\status_busy.png" />
+    <None Include="Resources\status_away.png" />
+    <None Include="Resources\user_red.png" />
+    <None Include="Resources\user_orange.png" />
+    <None Include="Resources\user_green.png" />
+    <None Include="Resources\user_go.png" />
+    <None Include="Resources\user_edit.png" />
+    <None Include="Resources\user_delete.png" />
+    <None Include="Resources\user_add.png" />
+    <None Include="app.config" />
+    <None Include="Resources\skin.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BauControls\BauControls.csproj">
+      <Project>{F62C525C-5A46-46E1-BD18-450ACAF06E26}</Project>
+      <Name>BauControls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Files\Files.csproj">
+      <Project>{206856B6-B1B7-41BC-AC2F-EF1E8A99ABE8}</Project>
+      <Name>Files</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ImageControls\ImageControls.csproj">
+      <Project>{976E750D-989C-43F0-9748-9147E1D1D88D}</Project>
+      <Name>ImageControls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WebExplorer\WebExplorer.csproj">
+      <Project>{651488E0-8BBD-4BDE-918C-909EA494E2C3}</Project>
+      <Name>WebExplorer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LibHelper\LibHelper.csproj">
+      <Project>{d9e2dc6b-3e54-421f-9231-a4f3a799bc4c}</Project>
+      <Name>LibHelper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LibMarkupLanguage\LibMarkupLanguage.csproj">
+      <Project>{CB50D1D9-55E4-4A2B-8EC7-0ADDE8D7E3BD}</Project>
+      <Name>LibMarkupLanguage</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LibFeeds\LibFeeds.csproj">
+      <Project>{EF001998-E787-4E19-834A-DB93566662C6}</Project>
+      <Name>LibFeeds</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LibDownloader\LibDownloader.csproj">
+      <Project>{BB816A7F-D7F7-4FDC-8CFE-23D180A73406}</Project>
+      <Name>LibDownloader</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ImageFilters\ImageFilters.csproj">
+      <Project>{439274B0-678E-432C-9497-C73B6BC7A5CF}</Project>
+      <Name>ImageFilters</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LibEBook\LibEBook.csproj">
+      <Project>{37663C2E-16CA-4497-B59A-B45847EA6CFA}</Project>
+      <Name>LibEBook</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LibComicsBooks\LibComicsBooks.csproj">
+      <Project>{eecf02af-bfdb-4056-b95a-d85701431fec}</Project>
+      <Name>LibComicsBooks</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Help\Help.csproj">
+      <Project>{e4acf0b6-7ea9-4fbe-9a7a-553ba3ed64da}</Project>
+      <Name>Help</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LibCollector\LibCollector.csproj">
+      <Project>{FFC795A2-9846-475E-83E2-A2182ECC93A0}</Project>
+      <Name>LibCollector</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{B4F97281-0DBD-4835-9ED8-7DFB966E87FF}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\printer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_comment.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report_link.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\date.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\transmit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_view_tile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\basket.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\database_table.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calculator.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\database_refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder_heart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cup.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\database.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\database_connect.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\building.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Retry.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RefreshDocViewHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RepeatHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_form_magnify.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\building_key.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\color_swatch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bricks.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bug_delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\briefcase.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\package.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\box.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CascadeWindowsHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PageWidthHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\document_flow_markedForApproval.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\document_flow_checkdOutByOther.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_1_create.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\project.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_form.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bullet_green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\task_finished.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\envelope.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\notice.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CRL_create.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\export.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\journal_entry.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\group.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lock_open.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editorBlank.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\site.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\forum2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\email.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\email_go.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_view_columns.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\printer.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\puzzle.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CRL.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Data\ComicBookWindows.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\DBLibrary.db">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\DataContainer_MoveFirstHS.png" />
+    <None Include="Resources\DataContainer_MoveLastHS.png" />
+    <None Include="Resources\DataContainer_MoveNextHS.png" />
+    <None Include="Resources\DataContainer_MovePreviousHS.png" />
+    <None Include="Resources\application_tile_horizontal.png" />
+    <None Include="Resources\Splash.png" />
+    <None Include="Resources\page_white_magnify.png" />
+    <None Include="Resources\About.ico" />
+    <None Include="Resources\arrow_rotate_anticlockwise.png" />
+    <None Include="Resources\arrow_rotate_clockwise.png" />
+    <None Include="Resources\arrow_refresh.png" />
+    <None Include="Resources\magnifier.png" />
+    <None Include="Data\Help\HelpDefinition.hlp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <Content Include="Data\BlogTemplates\News\Definition.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\BlogTemplates\News\flag.blue.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\BlogTemplates\News\flag.clear.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\BlogTemplates\News\read.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\BlogTemplates\News\Style.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\BlogTemplates\News\unread.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\About.htm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones.htm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks.htm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks\Comics-Web.htm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks\Creacion-de-comics.htm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks\Creacion-de-comics\CreacionComics.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks\Creacion-de-comics\NuevaPaginaComic.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks\Creacion-de-comics\SeleccionImagen.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks\Datos-adicionales.htm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks\Datos-adicionales\DatosComic.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks\Definicion-de-archivos-ePub.htm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks\Definicion-de-archivos.htm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks\Exportacion-ePub.htm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks\Exportacion-ePub\Exportacion-ePub.jpg" />
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks\Exportacion-HTML.htm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks\Exportacion-HTML\ExportarHTMLComicBook.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks\Exportacion-HTML\GaleriaImagenes.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks\Interface.htm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks\Interface\Barra-de-herramientas.htm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks\Interface\Barra-de-herramientas\BarraHerramientasComicBook.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks\Interface\Menu-principal.htm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks\Interface\PantallaPrincipalComicBooks.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks\Interface\Ventanas.htm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks\Interface\Ventanas\Acerca-de.htm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks\Interface\Ventanas\Acerca-de\AcercaDeComicBooks.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks\Interface\Ventanas\Ayuda.htm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks\Interface\Ventanas\Ayuda\IndiceAyudaComicBooks.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks\Interface\Ventanas\Colecciones.htm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks\Interface\Ventanas\Colecciones\VentanaColecciones.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks\Interface\Ventanas\Comic.htm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks\Interface\Ventanas\Comics-Web.htm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks\Interface\Ventanas\Comics-Web\ComicWeb.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks\Interface\Ventanas\Comic\Barra-visualizacion.htm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks\Interface\Ventanas\Comic\Barra-visualizacion\BarraVisualizacion.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks\Interface\Ventanas\Comic\LupaComicBooks.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks\Interface\Ventanas\Comic\VentanaImagenComicBooks.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks\Interface\Ventanas\Configuracion-de-ventanas.htm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks\Interface\Ventanas\Configuracion-de-ventanas\ConfiguracionVentanas.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks\Interface\Ventanas\Configuracion-de-ventanas\OcultarVentana.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks\Interface\Ventanas\Configuracion-de-ventanas\PestanasInferior.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks\Interface\Ventanas\eBook.htm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks\Interface\Ventanas\eBook\VentanaEBook.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks\Interface\Ventanas\Explorador-de-archivos.htm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks\Interface\Ventanas\Explorador-de-archivos\ExploradorArchivosComicBooks.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks\Interface\Ventanas\Lista-comics-Web.htm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks\Interface\Ventanas\Lista-comics-Web\VentanaComicsWeb.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks\Interface\Ventanas\Log.htm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks\Interface\Ventanas\Log\VentanaLogComicBooks.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks\Interface\Ventanas\Opciones.htm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks\Interface\Ventanas\Opciones\VentanaConfiguracion.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks\Interface\Ventanas\Presentacion-preliminar.htm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks\Interface\Ventanas\Presentacion-preliminar\PreliminarComicBooks.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks\Interface\Ventanas\Publicidad.htm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks\Interface\Ventanas\Publicidad\VentanaPublicidadComicBooks.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks\Razon-de-la-publicidad.htm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks\Screenshots.htm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks\Screenshots\Foto-001.htm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks\Screenshots\Foto-001.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks\Screenshots\Foto-001_th.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks\Screenshots\Foto-002.htm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks\Screenshots\Foto-002.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks\Screenshots\Foto-002_th.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks\Screenshots\Foto-003.htm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks\Screenshots\Foto-003.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks\Screenshots\Foto-003_th.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks\Screenshots\Foto-004.htm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks\Screenshots\Foto-004.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks\Screenshots\Foto-004_th.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks\Screenshots\Foto-005.htm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks\Screenshots\Foto-005.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks\Screenshots\Foto-005_th.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks\Screenshots\Foto-006.htm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks\Screenshots\Foto-006.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Aplicaciones\ComicBooks\Screenshots\Foto-006_th.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Files\favicon.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Images\footerlogo.gif" />
+    <Content Include="Data\Help\Pages\Images\inicio.png" />
+    <Content Include="Data\Help\Pages\JavaScript\jquery-1.3.2.min.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\JavaScript\Pirobox\piroBox.1_2_min.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\JavaScript\Pirobox\piroBoxExecution.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\JavaScript\Pirobox\Styles\ajax-loader_b.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\JavaScript\Pirobox\Styles\ajax-loader_w.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\JavaScript\Pirobox\Styles\bg_load.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\JavaScript\Pirobox\Styles\bg_load.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\JavaScript\Pirobox\Styles\bg_load_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\JavaScript\Pirobox\Styles\b_c.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\JavaScript\Pirobox\Styles\b_l.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\JavaScript\Pirobox\Styles\b_r.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\JavaScript\Pirobox\Styles\c.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\JavaScript\Pirobox\Styles\close_btn3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\JavaScript\Pirobox\Styles\credits_bg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\JavaScript\Pirobox\Styles\c_l.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\JavaScript\Pirobox\Styles\c_r.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\JavaScript\Pirobox\Styles\img_bg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\JavaScript\Pirobox\Styles\link_out.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\JavaScript\Pirobox\Styles\link_out.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\JavaScript\Pirobox\Styles\link_out_h.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\JavaScript\Pirobox\Styles\link_out_h.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\JavaScript\Pirobox\Styles\next.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\JavaScript\Pirobox\Styles\nextoutside.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\JavaScript\Pirobox\Styles\nextoutside_h.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\JavaScript\Pirobox\Styles\next_h.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\JavaScript\Pirobox\Styles\pause.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\JavaScript\Pirobox\Styles\pause_h.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\JavaScript\Pirobox\Styles\pirobox_down.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\JavaScript\Pirobox\Styles\play.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\JavaScript\Pirobox\Styles\play_h.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\JavaScript\Pirobox\Styles\prev.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\JavaScript\Pirobox\Styles\prevoutside.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\JavaScript\Pirobox\Styles\prevoutside_h.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\JavaScript\Pirobox\Styles\prev_h.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\JavaScript\Pirobox\Styles\style.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\JavaScript\Pirobox\Styles\t_c.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\JavaScript\Pirobox\Styles\t_l.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\JavaScript\Pirobox\Styles\t_r.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Styles\images\blockheader.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Styles\images\header.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Styles\images\page_gradient.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Styles\images\postbullets.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Styles\images\sidebar_g.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Styles\images\vmenublockheader.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Styles\LayoutFixed.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Help\Pages\Styles\reset.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Library\Empty.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Web\ComicsWeb.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\book_open.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="UserControls\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

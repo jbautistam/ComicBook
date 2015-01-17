@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EF001998-E787-4E19-834A-DB93566662C6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Bau.Libraries.LibFeeds</RootNamespace>
+    <AssemblyName>LibBauFeeds</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.XML" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Exceptions\FeedException.cs" />
+    <Compile Include="Process\Procesor.cs" />
+    <Compile Include="Process\WebDownload.cs" />
+    <Compile Include="Syndication\Atom\Data\AtomChannel.cs" />
+    <Compile Include="Syndication\Atom\Data\AtomCategoriesCollection.cs" />
+    <Compile Include="Syndication\Atom\Data\AtomCategory.cs" />
+    <Compile Include="Syndication\Atom\AtomConstTags.cs" />
+    <Compile Include="Syndication\Atom\Data\AtomGenerator.cs" />
+    <Compile Include="Syndication\Atom\Data\AtomEntry.cs" />
+    <Compile Include="Syndication\Atom\Data\AtomLink.cs" />
+    <Compile Include="Syndication\Atom\Data\AtomLinksCollection.cs" />
+    <Compile Include="Syndication\Atom\Data\AtomPeople.cs" />
+    <Compile Include="Syndication\Atom\Data\AtomPersonsCollection.cs" />
+    <Compile Include="Syndication\Atom\Data\AtomRights.cs" />
+    <Compile Include="Syndication\Atom\Data\AtomSource.cs" />
+    <Compile Include="Syndication\Atom\Data\AtomText.cs" />
+    <Compile Include="Syndication\Atom\Transforms\AtomParser.cs" />
+    <Compile Include="Syndication\Atom\Transforms\AtomWriter.cs" />
+    <Compile Include="Syndication\Atom\Transforms\AtomToRSS.cs" />
+    <Compile Include="Syndication\FeedExtensions\RSSContent\Data\RSSContentData.cs" />
+    <Compile Include="Syndication\FeedExtensions\RSSContent\Transforms\RSSContentParser.cs" />
+    <Compile Include="Syndication\FeedExtensions\RSSContent\Transforms\RSSContentWriter.cs" />
+    <Compile Include="Syndication\FeedExtensions\RSSContent\RSSContentConstTags.cs" />
+    <Compile Include="Syndication\RDF\Data\RDFCategory.cs" />
+    <Compile Include="Syndication\RDF\Data\RDFChannel.cs" />
+    <Compile Include="Syndication\RDF\Data\RDFEntry.cs" />
+    <Compile Include="Syndication\RDF\RDFConstTags.cs" />
+    <Compile Include="Syndication\RDF\Transforms\RDFParser.cs" />
+    <Compile Include="Syndication\RDF\Transforms\RDFToAtom.cs" />
+    <Compile Include="Syndication\RDF\Transforms\RDFWriter.cs" />
+    <Compile Include="Syndication\DesktopFiles\Data\DesktopFilesChannel.cs" />
+    <Compile Include="Syndication\DesktopFiles\Data\DesktopFilesEntriesCollection.cs" />
+    <Compile Include="Syndication\DesktopFiles\Data\DesktopFilesEntry.cs" />
+    <Compile Include="Syndication\DesktopFiles\DesktopFilesConstTags.cs" />
+    <Compile Include="Syndication\DesktopFiles\Transforms\DesktopFilesParser.cs" />
+    <Compile Include="Syndication\DesktopFiles\Transforms\DesktopFilesWriter.cs" />
+    <Compile Include="Syndication\FeedBase.cs" />
+    <Compile Include="Syndication\FeedChannelBase.cs" />
+    <Compile Include="Syndication\FeedEntriesBaseCollection.cs" />
+    <Compile Include="Syndication\FeedEntryBase.cs" />
+    <Compile Include="Syndication\FeedExtensions\Desktop\Transforms\FeedDesktopHelper.cs" />
+    <Compile Include="Syndication\FeedExtensions\Desktop\Transforms\FeedDesktopWriter.cs" />
+    <Compile Include="Syndication\FeedExtensions\ExtensionParsersCollection.cs" />
+    <Compile Include="Syndication\FeedExtensions\ExtensionParserBase.cs" />
+    <Compile Include="Syndication\FeedExtensions\ExtensionBase.cs" />
+    <Compile Include="Syndication\FeedExtensions\Desktop\Data\FeedDesktop.cs" />
+    <Compile Include="Syndication\FeedExtensions\Desktop\Transforms\FeedDesktopParser.cs" />
+    <Compile Include="Syndication\FeedExtensions\Desktop\FeedDesktopConstTags.cs" />
+    <Compile Include="Syndication\FeedExtensions\ExtensionsCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Syndication\FeedExtensions\Yahoo\Data\YahooMedia.cs" />
+    <Compile Include="Syndication\FeedExtensions\Yahoo\Transforms\YahooMediaWriter.cs" />
+    <Compile Include="Syndication\FeedExtensions\Yahoo\YahooMediaConstTags.cs" />
+    <Compile Include="Syndication\FeedExtensions\Yahoo\Data\YahooMediaThumbnail.cs" />
+    <Compile Include="Syndication\FeedExtensions\Yahoo\Transforms\YahooMediaParser.cs" />
+    <Compile Include="Syndication\OPML\Data\OPMLChannel.cs" />
+    <Compile Include="Syndication\OPML\Data\OPMLEntry.cs" />
+    <Compile Include="Syndication\OPML\Data\OPMLEntriesCollection.cs" />
+    <Compile Include="Syndication\OPML\OPMLConstTags.cs" />
+    <Compile Include="Syndication\OPML\Transforms\OPMLParser.cs" />
+    <Compile Include="Syndication\OPML\Transforms\OPMLToDesktopFiles.cs" />
+    <Compile Include="Syndication\OPML\Transforms\OPMLWriter.cs" />
+    <Compile Include="Syndication\RSS\Data\RSSChannel.cs" />
+    <Compile Include="Syndication\RSS\Data\RSSCategoriesCollection.cs" />
+    <Compile Include="Syndication\RSS\Data\RSSCategory.cs" />
+    <Compile Include="Syndication\RSS\Data\RSSEnclosure.cs" />
+    <Compile Include="Syndication\RSS\Data\RSSEnclosureCollections.cs" />
+    <Compile Include="Syndication\RSS\Data\RSSAuthor.cs" />
+    <Compile Include="Syndication\RSS\Data\RSSAuthorsCollection.cs" />
+    <Compile Include="Syndication\RSS\RSSConstTags.cs" />
+    <Compile Include="Syndication\RSS\Data\RSSImage.cs" />
+    <Compile Include="Syndication\RSS\Data\RSSEntry.cs" />
+    <Compile Include="Syndication\RSS\Data\RSSGUID.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Syndication\RSS\Transforms\RSSParser.cs" />
+    <Compile Include="Syndication\RSS\Transforms\RSSToAtom.cs" />
+    <Compile Include="Syndication\RSS\Transforms\RSSWriter.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LibMarkupLanguage\LibMarkupLanguage.csproj">
+      <Project>{CB50D1D9-55E4-4A2B-8EC7-0ADDE8D7E3BD}</Project>
+      <Name>LibMarkupLanguage</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

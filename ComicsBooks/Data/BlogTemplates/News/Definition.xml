@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TemplateDefinition>
+	<Name>News</Name>
+	<Description>Noticias</Description>
+	<Html>
+		<![CDATA[
+			<html>
+				<head>
+					<link rel="stylesheet" type="text/css" href="Style.css" media="screen"/>
+					<script language="javascript">
+						function SetRead(objSender, strID)
+						{	window.external.ScriptMessageHandler('SetRead ' + strID);
+						}
+						
+						function SetInteresting(objSender, strID)
+						{	window.external.ScriptMessageHandler('SetInteresting ' + strID);
+						}
+						
+						function SetReadFixed(objSender, strID)
+						{	window.external.ScriptMessageHandler('SetReadFixed ' + strID);
+						}
+					</script>
+				</head>
+				<body>
+					$Content
+				</body>
+			</html>
+		]]>
+	</Html>
+	<TemplateChannel>
+		<![CDATA[
+			<h1>$Channel</h1>
+		]]>
+	</TemplateChannel>
+	<TemplateEntry>
+		<![CDATA[
+			<h2>
+				<a style="cursor:hand;" onClick="SetRead(this, '$IdEntry')">
+					<img src="$IconRead" alt = "Marcar como leído">
+				</a>
+				<a style="cursor:hand;" onClick="SetInteresting(this, '$IdEntry')">
+					<img src="$IconInteresting" alt = "Marcar como interesante">
+				</a>
+				<a href="$Link">$Title</a>
+			</h2>
+			<div onMouseEnter="SetReadFixed(this, '$IdEntry')">
+				$Content
+			</div>
+			<br>
+			<div style="font-size:0.8em;text-align:right;">
+				$DatePublish
+			</div>
+			<br>
+			<hr>
+		]]>
+	</TemplateEntry>
+	<Files>
+		<File>Style.css</File>
+		<File>flag.blue.gif</File>
+		<File>flag.clear.gif</File>
+		<File>read.gif</File>
+		<File>unread.gif</File>
+	</Files>
+</TemplateDefinition>

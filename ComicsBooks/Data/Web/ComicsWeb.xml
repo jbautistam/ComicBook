@@ -1,0 +1,1195 @@
+﻿<?xml version="1.0"?>
+<ComicsWeb>
+	<Comic>
+		<Name>Calvin and Hobbes (español)</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>spch</WebPath>
+		<LocalPath>CalvinHobbesEsp</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Baldo (español)</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>be</WebPath>
+		<LocalPath>be</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Candy (español)</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>spca</WebPath>
+		<LocalPath>spca</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Condorito (español)</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>cond</WebPath>
+		<LocalPath>cond</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Foxtrot (español)</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>spft</WebPath>
+		<LocalPath>spft</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Fred Basset (español)</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>spfba</WebPath>
+		<LocalPath>spfba</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Garfield (español)</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>gh</WebPath>
+		<LocalPath>gh</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Gaturro (español)</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>spgat</WebPath>
+		<LocalPath>Gaturro</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Modesty Blaise (español)</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>spmb</WebPath>
+		<LocalPath>ModestyEsp</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Overboard (español)</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>spob</WebPath>
+		<LocalPath>OverboardEsp</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Pepe (español)</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>sppep</WebPath>
+		<LocalPath>Pepe</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Pooch Café (español)</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>sppoc</WebPath>
+		<LocalPath>sppoc</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Sigmund (español)</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>spsig</WebPath>
+		<LocalPath>Sigmund</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Tutelandia (español)</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>sptut</WebPath>
+		<LocalPath>Tutelandia</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Ziggy (español)</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>spzi</WebPath>
+		<LocalPath>Ziggy</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+
+
+	<Comic>
+		<Name>5th Wave by Rich Tennant</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>fw</WebPath>
+		<LocalPath>5thWave</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>9 to 5 by Harley L. Schwadron</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>tmntf</WebPath>
+		<LocalPath>9to5</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Adam@Home by Brian Basset</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>ad</WebPath>
+		<LocalPath>AdamAtHome</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Agnes by Tony Cochran</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>cragn</WebPath>
+		<LocalPath>Agnes</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Alcaraz Lalo by Lalo Alcaraz</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>la</WebPath>
+		<LocalPath>AlcarazLalo</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Anderson Nick by Nick Anderson</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>wpnan</WebPath>
+		<LocalPath>AndersonNick</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Andy Capp by Reg Smythe</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>crcap</WebPath>
+		<LocalPath>AndyCapp</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Animal Crackers by Fred Wagner</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>tmani</WebPath>
+		<LocalPath>AnimalCrackers</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Annie by Jay Maeder and Ted Slampyak</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>tmann</WebPath>
+		<LocalPath>Annie</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Ask Shagg by Peter Guren</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>crask</WebPath>
+		<LocalPath>AskShagg</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Asay Chuck by Chuck Asay</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>crcas</WebPath>
+		<LocalPath>AsayChuck</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Auth Tony by Jules Feiffer</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>ta</WebPath>
+		<LocalPath>AuthTony</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Baldo by Hector Cantu and Carlos Castellanos</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>ba</WebPath>
+		<LocalPath>Baldo</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Ballard Street by Jerry Van Amerongen</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>crbal</WebPath>
+		<LocalPath>BallardStreet</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>BC by Johnny Hart</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>crbc</WebPath>
+		<LocalPath>BC</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Benson Steve by Steve Benson</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>crsbe</WebPath>
+		<LocalPath>BensonSteve</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Big Top by Rob Harrell</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>bt</WebPath>
+		<LocalPath>BigTop</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Biographic by Steve McGarry</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>biov</WebPath>
+		<LocalPath>Biographic</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Bob the Squirrel by Frank Page</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>bob</WebPath>
+		<LocalPath>BobTheSquirrel</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Bok Chip by Chip Bok</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>crcbo</WebPath>
+		<LocalPath>BokChip</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Bo Nanas by John Kovaleski</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>bon</WebPath>
+		<LocalPath>BoNanas</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Boondocks by Aaron McGruder</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>bo</WebPath>
+		<LocalPath>Boondocks</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Bound and Gagged by </Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>tmbou</WebPath>
+		<LocalPath>BoundAndGagged</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Bottom Liners by Eric and Bill Teitelbaum</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>tmbot</WebPath>
+		<LocalPath>BottomLiners</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Brainwaves by Betsy Streeter</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>bwv</WebPath>
+		<LocalPath>Brainwaves</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Brenda Starr by June Brigman and Mary Schmich</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>tmbre</WebPath>
+		<LocalPath>BrendaStarr</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Brewster Rockit by Tim Rickard</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>tmrkt</WebPath>
+		<LocalPath>BrewsterRockit</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Broom Hilda by Russell Myers</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>tmbro</WebPath>
+		<LocalPath>BroomHilda</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Carlson Stuart by Stuart Carlson</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>sc</WebPath>
+		<LocalPath>CarlsonStuart</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Catalino Ken by Ken Catalino</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>crkca</WebPath>
+		<LocalPath>CatalinoKen</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Cathy by Cathy Guisewite</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>ca</WebPath>
+		<LocalPath>Cathy</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Cest La Vie by Jennifer M. Babcock</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>clv</WebPath>
+		<LocalPath>CestLaVie</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>CEO Dad by Tom Stern and Jorge Pacheco</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>crceo</WebPath>
+		<LocalPath>CEODad</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>City by Derf</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>derf</WebPath>
+		<LocalPath>City</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Clear Blue Water by Karen Montague-Reyes</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>cbw</WebPath>
+		<LocalPath>ClearBlueWater</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Cleats by Bill Hinds</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>cle</WebPath>
+		<LocalPath>Cleats</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Close to Home by John McPherson</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>cl</WebPath>
+		<LocalPath>CloseToHome</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Compu Toon by Charles Boyce</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>tmcom</WebPath>
+		<LocalPath>CompuToon</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Conrad Paul by Paul Conrad</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>tmpco</WebPath>
+		<LocalPath>ConradPaul</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Cornered by Mike Baldwin</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>co</WebPath>
+		<LocalPath>Cornered</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Danziger Jeff by Jeff Danziger</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>jd</WebPath>
+		<LocalPath>DanzigerJeff</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Davies Matt by Matt Davies</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>tmmda</WebPath>
+		<LocalPath>DaviesMatt</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Deep Cover by Tim Eagan</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>deep</WebPath>
+		<LocalPath>DeepCover</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Deering John by John Deering</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>crjde</WebPath>
+		<LocalPath>DeeringJohn</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Dick Tracy by Dick Tracy</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>tmdic</WebPath>
+		<LocalPath>DickTracy</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Dinette Set by Julie Larson</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>crdin</WebPath>
+		<LocalPath>DinetteSet</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Dog Eat Doug by Brian Anderson</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>crdog</WebPath>
+		<LocalPath>DogEatDoug</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Doonesbury by Garry Trudeau</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>db</WebPath>
+		<LocalPath>Doonesbury</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Duplex by Glenn McCoy</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>dp</WebPath>
+		<LocalPath>Duplex</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Elderberries by Phil Frank and Joe Troise</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>eld</WebPath>
+		<LocalPath>Elderberries</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Faces in the News by Kerry Waghorn</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>kw</WebPath>
+		<LocalPath>FacesInTheNews</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Flight Deck by Peter Waldner</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>crfd</WebPath>
+		<LocalPath>FlightDeck</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Flo and Friends</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>crflo</WebPath>
+		<LocalPath>FloAndFriends</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Flying McCoys by Glenn and Gary McCoy</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>fmc</WebPath>
+		<LocalPath>FlyingMcCoys</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>For Heavens Sake by Mike Morgan</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>crfhs</WebPath>
+		<LocalPath>ForHeavensSake</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>FoxTrot by Bill Amend</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>ft</WebPath>
+		<LocalPath>FoxTrot</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>For Better or For Worse by Lynn Johnston</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>fb</WebPath>
+		<LocalPath>ForBetterOrForWorse</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Frank and Ernest by Bob Thaves</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>fa</WebPath>
+		<LocalPath>FrankAndErnest</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Fred Basset by Alex Graham</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>tmfba</WebPath>
+		<LocalPath>FredBasset</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Fusco Brothers by J.C. Duffy</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>fu</WebPath>
+		<LocalPath>FuscoBrothers</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Garfield by Jim Davis</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>ga</WebPath>
+		<LocalPath>Garfield</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Gasoline Alley by Frank King</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>tmgas</WebPath>
+		<LocalPath>GasolineAlley</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Gil Thorp by Neal Rubin and Frank McLaughlin</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>tmgil</WebPath>
+		<LocalPath>GilThorp</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Ginger Meggs by James Kemsley</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>gin</WebPath>
+		<LocalPath>GingerMeggs</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Gorrell Bob by bob Gorrell</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>crbgo</WebPath>
+		<LocalPath>GorrelBob</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Handelsman Walt by Walt Handelsman</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>tmwha</WebPath>
+		<LocalPath>HandelsmanWalt</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Heart of the City by Mark Tatulli</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>hc</WebPath>
+		<LocalPath>HeartOfTheCity</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Heathcliff by George Gately</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>crhea</WebPath>
+		<LocalPath>Heathcliff</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Herb and Jamaal by Stephen Bentley</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath></WebPath>
+		<LocalPath>HerbAndJamaal</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Higgins Jack by Jack Higgins</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>jh</WebPath>
+		<LocalPath>HigginsJack</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Horsey David by David Horsey</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>tmdho</WebPath>
+		<LocalPath>HorseyDavid</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Housebroken by Steve Watkins</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>tmhou</WebPath>
+		<LocalPath>Housebroken</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Hubert and Abby by Mel Henze</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>haa</WebPath>
+		<LocalPath>HubertAndAbby</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Idiot Box by Matt Bors</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>ibox</WebPath>
+		<LocalPath>IdiotBox</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>In the Bleachers by ???</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>bl</WebPath>
+		<LocalPath>InTheBleachers</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Ink Pen by Phil Dunlap</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>ink</WebPath>
+		<LocalPath>InkPen</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Jones Clay by Clay Jones</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>crcjo</WebPath>
+		<LocalPath>JonesClay</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>K Chronicles by Keith Knight</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>kk</WebPath>
+		<LocalPath>KChronicles</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Kallaugher Kevin by Kevin Kallaugher</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>cwkal</WebPath>
+		<LocalPath>KallaugherKevin</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Kelley Steve by Steve Kelley</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>crske</WebPath>
+		<LocalPath>KelleySteve</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Kudzu by Doug Marlette</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>tmkud</WebPath>
+		<LocalPath>Kudzu</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>La Cucaracha by Lalo Alcaraz</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>lc</WebPath>
+		<LocalPath>LaCucaracha</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Liberty Meadows by Frank Cho</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>crlib</WebPath>
+		<LocalPath>LibertyMeadows</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Locher Dick by Dick Locher</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>tmdlo</WebPath>
+		<LocalPath>LocherDick</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Loose Parts by Dave Blazek</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>tmloo</WebPath>
+		<LocalPath>LooseParts</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Lost Sheep by Dan Thompson</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>lost</WebPath>
+		<LocalPath>LostSheep</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Lowe Chan by Chan Lowe</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>tmclo</WebPath>
+		<LocalPath>LoweChan</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Luckovich Mike by Mike Luckovich</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>crmlu</WebPath>
+		<LocalPath>LuckovichMike</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Lucky Cow by Mark Pett</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>luc</WebPath>
+		<LocalPath>LuckyCow</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Marlette Doug by Doug Marlette</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>tmdma</WebPath>
+		<LocalPath>MarletteDoug</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>McCoy Glenn by Glenn McCoy</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>gm</WebPath>
+		<LocalPath>McCoyGlenn</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Meaning of Lila by John Forgetta and L.A. Rose</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>crlil</WebPath>
+		<LocalPath>MeaningOfLila</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Meehan Streak by Kieran Meehan</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>tmmee</WebPath>
+		<LocalPath>MeehanStreak</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Momma by Mell Lazarus</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>crmom</WebPath>
+		<LocalPath>Momma</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Morin Jim by Jim Morin</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>cwjmo</WebPath>
+		<LocalPath>MorinJim</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Natural Selection by Russ Wallace</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>crns</WebPath>
+		<LocalPath>NaturalSelection</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Nest Heads by John Allen</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>cpnst</WebPath>
+		<LocalPath>NestHeads</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Neurotica by Big Al the Gal</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>neu</WebPath>
+		<LocalPath>Neurotica</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Non Sequitur by Wiley</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>nq</WebPath>
+		<LocalPath>NonSequitur</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Ohman Jack by Jack Ohman</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>tmjoh</WebPath>
+		<LocalPath>OhmanJack</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Oliphant Pat by Pat Oliphant</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>po</WebPath>
+		<LocalPath>OliphantPat</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>One Big Happy by Rick Detorie</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>crobh</WebPath>
+		<LocalPath>OneBigHappy</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Other Coast by Adrian Raeside</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>crtoc</WebPath>
+		<LocalPath>OtherCoast</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Overboard by Chip Dunham</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>ob</WebPath>
+		<LocalPath>Overboard</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Pett Joel by Joel Pett</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>jp</WebPath>
+		<LocalPath>PettJoel</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Pink Panther by Eric and Bill Teitelbaum</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>tmpnk</WebPath>
+		<LocalPath>PinkPanther</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Pooch Cafe by Paul Gilligan</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>poc</WebPath>
+		<LocalPath>PoochCafe</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Pop Culture by Steve McGarry</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>pop</WebPath>
+		<LocalPath>PopCulture</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Powell Dwane by Dwane Powell</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>crdpo</WebPath>
+		<LocalPath>PowellDwane</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Preteena by Allison Barrows</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>pr</WebPath>
+		<LocalPath>Preteena</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Prickly City by Scott Stantis</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>prc</WebPath>
+		<LocalPath>PricklyCity</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Quigmans by Buddy Hickerson</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>tmqui</WebPath>
+		<LocalPath>Quigmans</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Rall by Ted Rall</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>tr</WebPath>
+		<LocalPath>Rall</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Real Life Adventures by Gary Wise and Lance Aldrich</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>rl</WebPath>
+		<LocalPath>RealLifeAdventures</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Red Meat by Max Cannon</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>red</WebPath>
+		<LocalPath>RedMeat</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Red and Rover by Brian Basset</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>wpred</WebPath>
+		<LocalPath>RedAndRover</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Reynolds Unwrapped by Dan Reynolds</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>rw</WebPath>
+		<LocalPath>ReynoldsUnwrapped</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Rubes by Leigh Rubin</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>crrub</WebPath>
+		<LocalPath>Rubes</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Sargent Ben by Ben Sargent</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>bs</WebPath>
+		<LocalPath>SargentBen</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Send Help by Josh Cotter</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>send</WebPath>
+		<LocalPath>SendHelp</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Sheneman Drew by Drew Sheneman</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>tmdsh</WebPath>
+		<LocalPath>ShenemanDrew</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Shoe by Chris Cassatt and Gary Brookins</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>tmsho</WebPath>
+		<LocalPath>Shoe</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Shoecabbage by Teresa Dowlatshahi and David Stanford</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>shcab</WebPath>
+		<LocalPath>Shoecabbage</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Slowpoke by Jen Sorensen</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>slow</WebPath>
+		<LocalPath>Slowpoke</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Small World by Tom Briscoe</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>small</WebPath>
+		<LocalPath>SmallWorld</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Speed Bump by Dave Coverly</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>crspe</WebPath>
+		<LocalPath>SpeedBump</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>State of the Union by Carl Moore</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>crsou</WebPath>
+		<LocalPath>StateOfTheUnion</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Stayskal Wayne by Wayne Stayskal</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>tmwst</WebPath>
+		<LocalPath>StayskalWayne</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Stone Soup by Jan Eliot</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>ss</WebPath>
+		<LocalPath>StoneSoup</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Strange Brew by John Deering</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>crstr</WebPath>
+		<LocalPath>StrangeBrew</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Summers Dana by Dana Summers</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>tmdsu</WebPath>
+		<LocalPath>SummersDana</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Sutton Impact by Ward Sutton</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>stn</WebPath>
+		<LocalPath>SuttonImpact</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Sylvia by Nicole Hollander</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>tmsyl</WebPath>
+		<LocalPath>Sylvia</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Szep Paul by Paul Szep</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>crpsz</WebPath>
+		<LocalPath>SzepPaul</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Tank McNamara by Jeff Millar and Bill Hinds</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>tm</WebPath>
+		<LocalPath>TankMcNamara</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Telnaes Ann by Ann Telnaes</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>tmate</WebPath>
+		<LocalPath>TelnaesAnn</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Th Ink by Keith Knight</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>think</WebPath>
+		<LocalPath>ThInk</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Through Thick and Thin by Ralph Smith</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>cpthk</WebPath>
+		<LocalPath>ThroughThickAndThin</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Tiny Sepuku by Ken Cursoe</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>tiny</WebPath>
+		<LocalPath>TinySepuku</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Toles Tom by Tom Toles</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>tt</WebPath>
+		<LocalPath>TolesTom</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Tom the Dancing Bug by Ruben Bolling</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>td</WebPath>
+		<LocalPath>TomTheDancingBug</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Too Much Coffee Man by Shannon Wheeler</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>tmcm</WebPath>
+		<LocalPath>TooMuchCoffeeMan</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Trevor by Piper and Lee</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>trev</WebPath>
+		<LocalPath>Trevor</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Varvel Gary by Gary Varvel</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>crgva</WebPath>
+		<LocalPath>VarvelGary</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Wassermann Dan by Dan Wassermann</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>tmdwa</WebPath>
+		<LocalPath>WassermannDan</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Waylay by Carol Lay</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>min</WebPath>
+		<LocalPath>Waylay</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Wee Pals by Morrie Turner</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>crwee</WebPath>
+		<LocalPath>WeePals</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Wilkinson Signe by Signe Wilkinson</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>wpswi</WebPath>
+		<LocalPath>WilkinsonSigne</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Wizard of Id by Brant Parker and Johnny Hart</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>crwiz</WebPath>
+		<LocalPath>WizardOfId</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Work It Out by Charlos Gary</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>crwio</WebPath>
+		<LocalPath>WorkItOut</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Wright Dick by Dick Wright</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>tmdiw</WebPath>
+		<LocalPath>WrightDick</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Wright Don by Don Wright</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>tmdow</WebPath>
+		<LocalPath>WrightDon</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Yenny by David Alvarez</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>yen</WebPath>
+		<LocalPath>Yenny</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Zack Hill by John Deering and J. Newcombe</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>crzhi</WebPath>
+		<LocalPath>ZackHill</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+	<Comic>
+		<Name>Ziggy by Tom Wilson and Tom II</Name>
+		<Web>http://images.ucomics.com/comics/</Web>
+		<WebPath>zi</WebPath>
+		<LocalPath>Ziggy</LocalPath>
+		<Extension>gif</Extension>
+	</Comic>
+</ComicsWeb>

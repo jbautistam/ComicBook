@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{37663C2E-16CA-4497-B59A-B45847EA6CFA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Bau.Libraries.LibEBook</RootNamespace>
+    <AssemblyName>LibEBook</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Base\eBookBaseCollection.cs" />
+    <Compile Include="BookFactory.cs" />
+    <Compile Include="Formats\eBook\Book.cs" />
+    <Compile Include="Base\eBookBase.cs" />
+    <Compile Include="Formats\eBook\PageFile.cs" />
+    <Compile Include="Formats\eBook\PageFilesCollection.cs" />
+    <Compile Include="Formats\ePub\Creator\eBookConvertEPub.cs" />
+    <Compile Include="Formats\ePub\Creator\ePubConvertEBook.cs" />
+    <Compile Include="Formats\ePub\Creator\ePubCreator.cs" />
+    <Compile Include="Formats\ePub\ePubEBook.cs" />
+    <Compile Include="Formats\ePub\NCX\NavPoint.cs" />
+    <Compile Include="Formats\ePub\NCX\NavPointsCollection.cs" />
+    <Compile Include="Formats\ePub\NCX\NCXConstants.cs" />
+    <Compile Include="Formats\ePub\NCX\NCXFile.cs" />
+    <Compile Include="Formats\ePub\NCX\NCXFilesCollection.cs" />
+    <Compile Include="Formats\ePub\OPF\ItemRef.cs" />
+    <Compile Include="Formats\ePub\OPF\ItemsCollection.cs" />
+    <Compile Include="Formats\ePub\OPF\ItemsRefCollection.cs" />
+    <Compile Include="Formats\ePub\OPF\Metadata.cs" />
+    <Compile Include="Formats\ePub\OPF\OPFPackage.cs" />
+    <Compile Include="Formats\ePub\OPF\OPFPackagesCollection.cs" />
+    <Compile Include="Formats\ePub\Parser\ePubParserNCX.cs" />
+    <Compile Include="Formats\ePub\Parser\ePubParserPackage.cs" />
+    <Compile Include="Formats\Extensions\Media\MediaTypeConstants.cs" />
+    <Compile Include="Formats\eBook\IndexItem.cs" />
+    <Compile Include="Formats\eBook\IndexItemsCollection.cs" />
+    <Compile Include="Formats\Extensions\DC\DublinCoreConstants.cs" />
+    <Compile Include="Formats\ePub\OPF\OPFConstants.cs" />
+    <Compile Include="Formats\ePub\OPF\OPFPackageConstants.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Formats\ePub\Container\ContainerConstants.cs" />
+    <Compile Include="Formats\ePub\Container\ContainerFile.cs" />
+    <Compile Include="Formats\ePub\Container\RootFile.cs" />
+    <Compile Include="Formats\ePub\Container\RootFilesCollection.cs" />
+    <Compile Include="Formats\ePub\Parser\ePubParser.cs" />
+    <Compile Include="Formats\ePub\Parser\ePubParserContainer.cs" />
+    <Compile Include="Formats\ePub\OPF\Item.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LibHelper\LibHelper.csproj">
+      <Project>{2D53C07A-25F3-4912-9479-272703FE5DD0}</Project>
+      <Name>LibHelper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LibMarkupLanguage\LibMarkupLanguage.csproj">
+      <Project>{CB50D1D9-55E4-4A2B-8EC7-0ADDE8D7E3BD}</Project>
+      <Name>LibMarkupLanguage</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LibCompression\LibCompression.csproj">
+      <Project>{b9091007-dcb8-45d6-a24d-500520bb2613}</Project>
+      <Name>LibCompression</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
