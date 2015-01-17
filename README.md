@@ -1,5 +1,5 @@
 # ComicBook
-Visualizador de cómics, ePub y PDF
+Código fuente de visualizador de cómics, ePub y PDF en C#
 
 # Introducción
 BauComicBooks es una aplicación para lectura de archivos de cómic , eBook en formato ePub y visualización de imágenes.
